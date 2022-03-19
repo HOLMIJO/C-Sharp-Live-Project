@@ -60,4 +60,4 @@ This is the final product of the Production Members Index page. Each image dims 
 
 https://user-images.githubusercontent.com/91238285/159123637-303d1e3c-ea1a-4aa5-a93a-d0d396df302f.mp4
 
-*Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Page Top](#live-project)*
+*Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories)*
