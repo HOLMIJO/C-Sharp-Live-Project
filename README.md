@@ -3,7 +3,7 @@ Code Summary on C# Live Project
 
 ## Introduction
 For the last 2 weeks of my time at The Tech Academy, I worked on a team developing a full scale website utilizing ASP.NET MVC and Entity Framework, written in C#.
-The mainframe for the site was already in place. My tasks were geared towards the creation of the interworkings of the Production Member area of the site.
+This project is the interactive website for managing the content and productions for a theater/acting company. The mainframe for the site was already in place. My tasks were geared towards the creation of the interworkings of the Production Member area of the site. 
 
 Below are the descriptions of the stories that I worked on, along with code snippits.
 
