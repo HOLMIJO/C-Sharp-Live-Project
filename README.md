@@ -8,7 +8,7 @@ This project is the interactive website for managing the content and productions
 Below are the descriptions of the stories that I worked on, along with code snippits.
 
 ## Front End Stories
-* [Styling The Home Page] (#styling-home-page)
+* [Styling The Home Page]
 
 ### Styling The Home Page
 This page was a blank slate. My task was to add and position a logo under the navigation bar, create 2 columns of uneven size, create sections and fill with client specific production posters and related images. Adding a Donations section while linking to related page. Added another section for Land Acknowledgement including text and images, linking to related site.
@@ -22,10 +22,10 @@ This page was a blank slate. My task was to add and position a logo under the na
 ![HomePage-Full](https://user-images.githubusercontent.com/91238285/159121774-a15536de-6d1c-416b-9e72-aa647704e187.jpg)
 
 ## Back End Stories
-* [CRUD Pages] (#crud-pages)
-* [Photo Storage & Retrieval] (#photo-storage-retrieval)
-* [Database] (#database)
-* [Production Members] (#production-members)
+* [CRUD Pages]
+* [Photo Storage & Retrieval]
+* [Database]
+* [Production Members]
 
 ### CRUD Pages
 This story required creating an Entity Model for the Production Member area. I created a model, an enum for positions, and CRUD pages with functionality.
