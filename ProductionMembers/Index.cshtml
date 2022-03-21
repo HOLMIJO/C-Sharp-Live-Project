@@ -1,0 +1,178 @@
+﻿@model IEnumerable<TheatreCMS3.Areas.Prod.Models.ProductionMember>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    <button class="ProductionMember-Index--Button btn m-md-3 md-3">@Html.ActionLink("Create New", "Create")</button>
+</p>
+<h2>Actor</h2>
+@foreach (var item in Model)
+{
+
+    if (item.MainRole == TheatreCMS3.Areas.Prod.Models.Position.Actor)
+    {
+        <div class="ProductionMember-Index--Card" style="width: 200px; height: 200px;" id="@item.ProductionMemberId">
+            <div>
+                <div class="ProductionMember-Index--Img-Container">
+                    <a href="@Url.Action("Details", new { id = item.ProductionMemberId })">
+                        <img src="data:photo;base64,@System.Convert.ToBase64String(item.Photo)" width="200" height="200" class="ProductionMember-Index--Card-Img-Top" alt="Profile Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <h5 class="ProductionMember-Index--Card-Title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <div class="ProductionMember-Index--Img-Container :hover">
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Edit", "Edit", new { id = item.ProductionMemberId })<i class="fa fa-folder-open fa-2x ProductionMember-Index--Edit"></i></a>
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Delete", "Delete", new { id = item.ProductionMemberId })<i class="fa fa-trash fa-2x ProductionMember-Index--Trash"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+    }
+
+    else
+    {
+        continue;
+    }
+}
+
+<h2>Director</h2>
+@foreach (var item in Model)
+{
+
+    if (item.MainRole == TheatreCMS3.Areas.Prod.Models.Position.Director)
+    {
+        <div class="ProductionMember-Index--Card" style="width: 200px; height: 200px;" id="@item.ProductionMemberId">
+            <div>
+                <div class="ProductionMember-Index--Img-Container">
+                    <a href="@Url.Action("Details", new { id = item.ProductionMemberId })">
+                        <img src="data:photo;base64,@System.Convert.ToBase64String(item.Photo)" width="200" height="200" class="ProductionMember-Index--Card-Img-Top" alt="Profile Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <h5 class="ProductionMember-Index--Card-Title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <div class="ProductionMember-Index--Img-Container :hover">
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Edit", "Edit", new { id = item.ProductionMemberId })<i class="fa fa-folder-open fa-2x ProductionMember-Index--Edit"></i></a>
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Delete", "Delete", new { id = item.ProductionMemberId })<i class="fa fa-trash fa-2x ProductionMember-Index--Trash"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    }
+
+    else
+    {
+        continue;
+    }
+}
+
+<h2>Technician</h2>
+@foreach (var item in Model)
+{
+    if (item.MainRole == TheatreCMS3.Areas.Prod.Models.Position.Technician)
+    {
+        <div class="ProductionMember-Index--Card" style="width: 200px; height: 200px;" id="@item.ProductionMemberId">
+            <div>
+                <div class="ProductionMember-Index--Img-Container">
+                    <a href="@Url.Action("Details", new { id = item.ProductionMemberId })">
+                        <img src="data:photo;base64,@System.Convert.ToBase64String(item.Photo)" width="200" height="200" class="ProductionMember-Index--Card-Img-Top" alt="Profile Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <h5 class="ProductionMember-Index--Card-Title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <div class="ProductionMember-Index--Img-Container :hover">
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Edit", "Edit", new { id = item.ProductionMemberId })<i class="fa fa-folder-open fa-2x ProductionMember-Index--Edit"></i></a>
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Delete", "Delete", new { id = item.ProductionMemberId })<i class="fa fa-trash fa-2x ProductionMember-Index--Trash"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    }
+
+    else
+    {
+        continue;
+    }
+}
+
+<h2>Stage Manager</h2>
+@foreach (var item in Model)
+{
+    if (item.MainRole == TheatreCMS3.Areas.Prod.Models.Position.StageManager)
+    {
+        <div class="ProductionMember-Index--Card" style="width: 200px; height: 200px;" id="@item.ProductionMemberId">
+            <div>
+                <div class="ProductionMember-Index--Img-Container">
+                    <a href="@Url.Action("Details", new { id = item.ProductionMemberId })">
+                        <img src="data:photo;base64,@System.Convert.ToBase64String(item.Photo)" width="200" height="200" class="ProductionMember-Index--Card-Img-Top" alt="Profile Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <h5 class="ProductionMember-Index--Card-Title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <div class="ProductionMember-Index--Img-Container :hover">
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Edit", "Edit", new { id = item.ProductionMemberId })<i class="fa fa-folder-open fa-2x ProductionMember-Index--Edit"></i></a>
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Delete", "Delete", new { id = item.ProductionMemberId })<i class="fa fa-trash fa-2x ProductionMember-Index--Trash"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    }
+
+    else
+    {
+        continue;
+    }
+}
+
+<h2>Other</h2>
+@foreach (var item in Model)
+{
+    if (item.MainRole == TheatreCMS3.Areas.Prod.Models.Position.Other)
+    {
+        <div class="ProductionMember-Index--Card" style="width: 200px; height: 200px;" id="@item.ProductionMemberId">
+            <div>
+                <div class="ProductionMember-Index--Img-Container">
+                    <a href="@Url.Action("Details", new { id = item.ProductionMemberId })">
+                        <img src="data:photo;base64,@System.Convert.ToBase64String(item.Photo)" width="200" height="200" class="ProductionMember-Index--Card-Img-Top" alt="Profile Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <h5 class="ProductionMember-Index--Card-Title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+            <div class="ProductionMember-Index--Card-Body">
+                <div class="ProductionMember-Index--Img-Container :hover">
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Edit", "Edit", new { id = item.ProductionMemberId })<i class="fa fa-folder-open fa-2x ProductionMember-Index--Edit"></i></a>
+                    <a href="#" class="ProductionMember-Index--Card-Link">@Html.ActionLink("Delete", "Delete", new { id = item.ProductionMemberId })<i class="fa fa-trash fa-2x ProductionMember-Index--Trash"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    }
+
+    else
+    {
+        continue;
+    }
+}
+
+

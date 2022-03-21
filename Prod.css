@@ -1,0 +1,487 @@
+﻿/* ▼ This ▼ is for you to easily reference the colors on the Site.css page */
+/* Do not uncomment these color variables */
+
+/* CSS color variables */
+/*:root { /* Color palette for css */
+/*--main-color: #DB1A11;  Red */
+/*--main-color--light: #F04D44;*/ /* Red, a shade lighter */
+/*--secondary-color: #D6972A;*/ /* Yellow gold */
+/*--light-color: #FFFBFB;*/ /* White */
+/*--dark-color: #000000;*/ /* Black */
+/*--secondary-color--dark: #9D7C39;*/ /* Dark Gold */
+/*}*/
+.CastMembers-Create--buttons {
+    
+    background-color: var(--secondary-color);
+}
+#CastMembers-Create-Button{
+    background-color: var(--main-color)
+}
+.CastMembers-Create--buttons:hover {
+    background-color: var(--secondary-color-dark);
+    color: var(--light-color)
+
+}
+
+.CastMember-Create--Form-Horizontal {
+    background-color: var(--secondary-color--dark);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.CastMember-Create--Form-Horizontal .form-group {
+    
+    padding-left: 10%;
+    
+    
+}
+/*.CastMember-Create--Form-Horizontal .form-group input {
+    width: 100%
+}*/
+/*.CastMember-Create--Header {
+    text-align: center;
+}*/
+.CastMember-Create--InputField:focus {
+    border: solid 3px var(--main-color)
+}
+.CastMember-Index--Card {
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: auto;
+    width: 20%;
+}
+.CastMember-Index--Card:hover {
+    cursor: pointer;
+}
+.CastMember-Index--Card .card-body {
+    background-color: var(--secondary-color--dark);
+    height: 6em;
+    padding-top: 2em;
+    overflow: hidden;
+}
+.CastMember-Index--button-container {
+    position: absolute;
+    top: 0.5em;
+    left: 10%;
+    display: none;
+}
+
+.CastMember-Index--Card img {
+    height: 15em;
+}
+.CastMember-Index--Card img:hover {
+    filter: brightness(65%);
+    cursor: pointer;
+        
+}
+.CastMembers-Index--CreateContainer form input {
+    width: 100%;
+    margin: .5em 0 .5em 0;
+}
+.CastMembers-Index--CreateContainer a {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 1.5em;
+    width: auto;
+    color: var(--light-color);
+    border: solid 1px var(--light-color);
+    background-color: var(--main-color--light);
+}
+.CastMembers-Index--CreateContainer h2 {
+    
+    padding-bottom: 1em;
+}
+.CastMembers-Index--CreateContainer {
+    padding: 2em 0 1em 0;
+    display: inline;
+}
+.CastMember-Index--CardContainer h2 {
+    border-bottom: solid 3px var(--light-color);
+}
+.CastMember-Details-Delete--Container {
+    
+    background-color: var(--main-color--light);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5%;
+}
+.CM-DeleteDetails--image-container {
+    margin: auto;
+    width: 70%;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 5%
+}
+.CastMember-Details-Delete--Container img {
+    position: relative;
+    top: -25%;
+    width: 100%;
+    height: 30em;
+}
+.CastMember-Details-Delete--Container ul {
+    width: 70%;
+    margin: auto;
+    border: solid 2px var(--light-color);
+    padding: 0.3em 0 0.3em 1em;
+}
+.CastMember-Details-Delete--Container li {
+    box-sizing: border-box;
+    padding: .5em 0 .5em 0em;
+    list-style-type: none;
+}
+
+.CastMember-Details-Delete--bio-container {
+    margin: auto;
+    width: 70%;
+    padding: 0.5em 0 0.5em 0;
+}
+.CastMember-Details-Delete--bio-container p {
+    border: solid 2px var(--light-color);
+    padding: 0.5em 0 0.5em 1em;
+
+    height: auto;
+}
+.CastMember-Details-Delete--form-container {
+    width: 70%;
+    padding: 0.5em 0 0 0em;
+    margin: auto;
+}
+/*.CastMember-Details-Delete--form-container button {
+    position: absolute;
+    right: 25%;
+}*/
+
+
+/* Theatre Member Section*/
+.TheatreMember-Create--Header {
+    text-align: center;
+}
+
+.TheatreMember-Create--buttons {
+    background-color: var(--light-color);
+}
+
+#TheatreMember-Create-Button {
+    background-color: var(--secondary-color)
+}
+
+.TheatreMember-Create--buttons:hover {
+    background-color: var(--main-color--light);
+    color: var(--light-color)
+}
+
+.TheatreMember-Create--Container {
+    background-color: var(--main-color);
+    margin: auto;
+    width: 100%;
+    padding: 10px;    
+}
+
+.TheatreMember-Create--Container .form-group {
+    padding-left: 15%;
+}
+
+.TheatreMember-Create--InputField:focus {
+    border: solid 3px var(--dark-color)
+}
+
+.TheatreMember-Index--Card {
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: auto;
+    width: 20%;
+}
+
+.TheatreMember-Index--Card:hover {
+    cursor: pointer;
+}
+
+.TheatreMember-Index--Card .card-body {
+    background-color: var(--secondary-color--dark);
+    height: 6em;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+
+
+.TheatreMember-Index--button-container {
+    position: absolute;
+    top: 0.5em;
+    left: 10%;
+    display: none;
+}
+
+.TheatreMember-Index--Card img {
+    height: 15em;
+}
+
+.TheatreMember-Index--Card img:hover {
+    filter: brightness(65%);
+    cursor: pointer;
+}
+
+.TheatreMember-Index--CreateContainer form input {
+    width: 100%;
+    margin: .5em 0 .5em 0;
+}
+
+.TheatreMember-Index--CreateContainer a {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 1.5em;
+    width: auto;
+    color: var(--light-color);
+    border: solid 1px var(--light-color);
+    background-color: var(--main-color--light);
+}
+
+.TheatreMember-Index--CreateContainer h2 {
+    padding-bottom: 1em;
+}
+
+.TheatreMember-Index--CreateContainer {
+    padding: 2em 0 1em 0;
+    display: inline;
+}
+
+.TheatreMember-Index--CardContainer h2 {
+    border-bottom: solid 3px var(--main-color);
+}
+
+.TheatreMember-Details-Delete--Container {
+    background-color: var(--secondary-color);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5%;
+    color: var(--dark-color);
+}
+
+.TM-DeleteDetails--image-container {
+    margin: auto;
+    width: 70%;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 5%
+}
+
+.TheatreMember-Details-Delete--Container img {
+    position: relative;
+    top: -25%;
+    width: 100%;
+    height: 30em;
+}
+
+.TheatreMember-Details-Delete--Container ul {
+    width: 70%;
+    margin: auto;
+    border: solid 2px var(--main-color);
+    padding: 0.3em 0 0.3em 1em;
+}
+
+.TheatreMember-Details-Delete--Container li {
+    box-sizing: border-box;
+    padding: .5em 0 .5em 0em;
+    list-style-type: none;
+}
+
+.TheatreMember-Details-Delete--bio-container {
+    margin: auto;
+    width: 70%;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.TheatreMember-Details-Delete--bio-container p {
+    border: solid 2px var(--main-color);
+    padding: 0.5em 0 0.5em 1em;
+    height: auto;
+}
+
+.TheatreMember-Details-Delete--form-container {
+    width: 70%;
+    padding: 0.5em 0 0 0em;
+    margin: auto;
+}
+
+
+/* Beginning of Production Member CRUD Styling */
+
+.ProductionMember-Index--Button {
+    background-color: var(--main-color);
+}
+
+.ProductionMember-Index--Card {
+    background-color: var(--dark-color);
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ProductionMember-Index--Card-Link {
+    color: var(--dark-color);
+}
+
+.ProductionMember-Index--Edit {
+    color: var(--secondary-color);
+}
+
+.ProductionMember-Index--Trash {
+    color: var(--main-color);
+}
+
+.ProductionMember-Index--Card-Body {
+    background-color: var(--dark-color);
+}
+
+.ProductionMember-Index--Card-Title h5 {
+    text-decoration-color: var(--dark-color);
+}
+
+.ProductionMember-Index--Card-Text {
+    text-decoration-color: var(--dark-color);
+    /*text-align: center;*/
+}
+
+.ProductionMember-Index--List-Group-Item {
+    background-color: var(--dark-color);
+}
+
+.ProductionMember-Index--List-Group--List-Group-Flush {
+    background-color: var(--dark-color);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ProductionMember-Index--card-img-top {
+    background-color: var(--dark-color);
+}
+
+.ProductionMember-Index--Img-Container img {
+    filter:brightness(100%);
+    transition: filter .3s ease;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.ProductionMember-Index--Img-Container img:hover {
+    filter:brightness(60%);
+}
+
+.ProductionMember-Create--Header {
+    text-align: center;
+}
+
+.ProductionMember-Create--Container {
+    background-color: var(--secondary-color--dark);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.ProductionMember-Create--Container .form-group {
+    padding-left: 15%;
+}
+
+.ProductionMembers-Create--buttons {
+    background-color: var(--main-color);
+}
+
+.ProductionMembers-Create-Button {
+    background-color: var(--secondary-color);
+}
+
+.ProductionMembers-Create--buttons:hover {
+    background-color: var(--main-color--light);
+    color: var(--light-color);
+}
+
+.ProductionMember-Create--InputField:focus {
+    border: solid 4px var(--main-color);
+}
+
+/* END OF PRODUCTIONMEMBER STYLING*/
+
+
+    /* Production Photo Section */
+
+
+    .ProductionPhoto-Create--Containe {
+    background-color: var(--main-color);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ProductionPhoto-Edit--Container {
+    background-color: var(--main-color);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ProductionPhoto-Index--Container {
+    background-color: var(--main-color);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ProductionPhoto-Index--Card {
+    border-radius: 15px;
+    padding: 5px;
+    height: 320px;
+}
+
+.ProductionPhoto-Index--Card img {
+    width: 320px;
+    height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.ProductionPhoto-Index--Button {
+    background-color: var(--secondary-color);
+}
+
+.ProductionPhoto-Index--Button a{
+    color: white;
+}
+
+.ProductionPhoto-Index--CardPill1 {
+    background-color: var(--secondary-color);
+    color: white;
+
+}.ProductionPhoto-Index--CardPill2 {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.ProductionPhoto-Index--Card h5{
+    color: var(--main-color);
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
